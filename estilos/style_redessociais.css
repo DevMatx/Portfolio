@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 2% 0 5% 0;
+    justify-content: center;
+}
+
+.cabecalho__menu__link {
+    color: #00ffff;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.paragrafo {
+    padding: 1% 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.imagem_github {
+    width: 15%; 
+}
+
+.imagem_instagram {
+    width: 12%;
+}
+
+.imagem_linkedin {
+    width: 12%;
+}
+
+.navegacao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 2%;
+}
+
+.github {
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 6px;
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.instagram {
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 6px;
+    padding: 1%;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.linkedin {
+    font-family: "Montserrat", sans-serif;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 6px;
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.github:hover,.instagram:hover,.linkedin:hover {
+    background-color: #272727;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 770px) {
+    .navegacao {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    
+    .navegacao1 {
+        align-items: center;
+    }
+
+    .paragrafo {
+        width: 80%;
+        text-align: center;
+    }
+}
