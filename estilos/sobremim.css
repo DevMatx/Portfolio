@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 2% 0 0 9%;
+    padding: 3% 0 0 9%;
 }
 
 .cabecalho__menu__link {
